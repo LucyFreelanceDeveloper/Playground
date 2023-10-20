@@ -6,9 +6,10 @@ It is project for practicing Angular
 
 **Source of project:** [angular.io: tutorial-first-app](https://angular.io/tutorial/first-app)
 
-## Development server
+## How to run aolication
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. In second terminal run ```json-server --watch db.json```
 
 ## Code scaffolding
 
@@ -25,10 +26,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## How to run
-1. In terminal run ```ng serve```
-2. In second terminal run ```json-server --watch db.json```
 
 ## Further help
 
