@@ -1,4 +1,4 @@
-import { Component , inject} from '@angular/core';
+import { Component, Inject, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
@@ -8,10 +8,7 @@ import { HousingLocation } from '../housinglocation';
 @Component({
   selector: 'app-details',
   standalone: true,
-  imports: [
-    CommonModule,
-    ReactiveFormsModule
-  ],
+  imports: [CommonModule,ReactiveFormsModule],
   template: `
   <article>
     <img class="listing-photo" [src]="housingLocation?.photo"
@@ -60,7 +57,7 @@ export class DetailsComponent {
 
   constructor(){
     const housingLocationId = Number(this.route.snapshot.params["id"]);
-      this.housingService.getHousingLocationById(housingLocationId).then((housingLocation)=>{
+    this.housingService.getHousingLocationById(housingLocationId).then((housingLocation)=>{
       this.housingLocation = housingLocation;
     })
   }

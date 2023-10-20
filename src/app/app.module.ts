@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { HomeComponent } from './home/home.component';
 import { AppComponent } from './app.component';
-import { HousingLocationComponent } from './housing-location/housing-location.component';
+import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { HousingLocationComponent } from './housing-location/housing-location.co
   imports: [
     BrowserModule,
     HomeComponent,
-    HousingLocationComponent
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
