@@ -6,7 +6,7 @@ It is project for practicing Angular
 
 **Source of project:** [angular.io: tutorial-first-app](https://angular.io/tutorial/first-app)
 
-## How to run aolication
+## How to run aplication
 
 1. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 2. In second terminal run ```json-server --watch db.json```
