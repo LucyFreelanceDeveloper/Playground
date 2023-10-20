@@ -27,8 +27,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## How to run
-1. In terminal run `ng serve`
-2. In second terminal run `json-server --watch db.json`
+1. In terminal run ```ng serve```
+2. In second terminal run ```json-server --watch db.json```
 
 ## Further help
 
