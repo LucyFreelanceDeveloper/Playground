@@ -26,6 +26,9 @@ class CashcardApplicationTests {
 		Number id = documentContext.read("$.id");
 		assertThat(id).isEqualTo(99);
 		assertThat(id).isNotNull();
+
+		Double amount = documentContext.read("$.amount");
+		assertThat(amount).isEqualTo(123.45);
 	}
 
 }
