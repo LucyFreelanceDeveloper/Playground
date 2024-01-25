@@ -1,4 +1,4 @@
-package kafka.config;
+package kafka;
 
 public record MessageRequest(String message) {
 }

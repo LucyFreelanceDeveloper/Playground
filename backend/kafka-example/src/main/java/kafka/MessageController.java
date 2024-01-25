@@ -1,6 +1,5 @@
 package kafka;
 
-import kafka.config.MessageRequest;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
